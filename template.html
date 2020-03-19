@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Eine sehr schöne Liste!</title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th>Nummer</th>
+				<th>Test Name</th>
+			</tr>
+			{% for k,v in ipairs(foods) do }} <tr>
+				<td>{{k}}</td>
+				<td>{{v}}</td>
+			</tr> {% end }}
+		</table>
+	</body>
+</html>
