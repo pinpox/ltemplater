@@ -12,3 +12,6 @@ as template. The output is written in this case to `redered.html`
 ```bash
 cat data.txt | lua main.lua template.html > rendered.html
 ```
+## Why?
+
+I felt the need to solve a simple task in a complicated way. (Use at own risk)
