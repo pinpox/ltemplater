@@ -1,5 +1,5 @@
-# ltemplater
-LoTemplater (Lukas' own templater), a templating utility written in Lua
+# LTemplater
+LTemplater (Lukas' own templater), a templating utility written in Lua
 
 This utility does just one thing: It takes the input piped into it and renders a
 template based on the input lines.
